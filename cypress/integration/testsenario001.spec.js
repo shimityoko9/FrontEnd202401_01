@@ -11,10 +11,10 @@ describe('テスト大項目01', () => {
             // id要素が存在するか
             cy.get('#top_message').should('exist');
         })
-        it('テスト小項目03:指定id top_messageの内容が「トップページです」なのか', () => {
+        it('テスト小項目03:指定id top_messageの内容が「トップページばい！」なのか', () => {
             // https://docs.cypress.io/api/commands/get
             // id要素が存在するか
-            cy.get('#top_message').should('have.text','トップページです');
+            cy.get('#top_message').should('have.text','トップページばい！');
         })
     })
 })
